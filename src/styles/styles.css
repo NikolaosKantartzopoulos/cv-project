@@ -1,4 +1,6 @@
 .App {
+
+
   margin: auto;
   display: flex;
   flex-flow: column;
@@ -9,11 +11,38 @@
 }
 
 .infoBlock {
+  color: #002d2d;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   width: clamp(300px, 90vw, 500px);
   gap: 10px;
   margin: 10px;
-  padding: 5px;
-  background-color: #48e4e4;
+  padding: 10px;
+  background-color: #cad6d6;
+  box-shadow: 5px 5px #91d4d4;
+}
+
+#topComponent {
+  background-color: #036464;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  font-size: 3rem;
+}
+
+.myButton {
+  background-color: white;
+  border: none;
+  color: #036464;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 50%;
+  margin: auto;
 }

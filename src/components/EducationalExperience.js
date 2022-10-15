@@ -74,7 +74,9 @@ class EducationalExperience extends Component {
 							value={this.state.dateOfStudy}
 							onChange={this.changeDateOfStudy}
 						/>
-						<button type="submit">Submit</button>
+						<button type="submit" className="myButton">
+							Submit
+						</button>
 					</form>
 				</React.Fragment>
 			);

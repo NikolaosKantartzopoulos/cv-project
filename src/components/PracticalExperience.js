@@ -83,7 +83,9 @@ class PracticalExperience extends Component {
 							value={this.state.dateRange}
 							onChange={this.changeDateRange}
 						/>
-						<button type="submit">Submit</button>
+						<button type="submit" className="myButton">
+							Submit
+						</button>
 					</form>
 				</React.Fragment>
 			);

@@ -70,7 +70,9 @@ class GeneralInformation extends Component {
 							value={this.state.phoneNumber}
 							onChange={this.changePhoneNumber}
 						/>
-						<button type="submit">Submit</button>
+						<button type="submit" className="myButton">
+							Submit
+						</button>
 					</form>
 				</React.Fragment>
 			);
